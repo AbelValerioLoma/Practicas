@@ -372,6 +372,23 @@
       },
       "execution_count": null,
       "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def areaTriangulo(base, altura):\n",
+        "  resultado = (base * altura)/2\n",
+        "  return resultado\n",
+        "dato = int (input (\"Ingresa el valor de la base: \"))\n",
+        "dato1 = int (input (\"Ingresa el valor de la altura: \"))\n",
+        "area = areaTriangulo (dato, dato1)\n",
+        "print ((\"El resultado del area es: \"), str(area))"
+      ],
+      "metadata": {
+        "id": "aP_wWEdNUG7X"
+      },
+      "execution_count": null,
+      "outputs": []
     }
   ],
   "metadata": {
